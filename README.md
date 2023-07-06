@@ -1,8 +1,8 @@
 ## create docker image
-- docker build . -t artifactory.analog.com:8443/adi/see/hello-world-angular:1.0
+- docker build . -t hello-world-angular:1.0
 
 ## Run docker image
-- docker run -p 4200:80 artifactory.analog.com:8443/adi/see/hello-world-angular:1.0
+- docker run -p 4200:80 hello-world-angular:1.0
 
 ## Deploy the image using Docker Compose
 - docker-compose up
