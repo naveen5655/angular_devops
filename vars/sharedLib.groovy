@@ -15,7 +15,7 @@ def runTest(){
     echo 'Test completed'
 }
 def buildDockerImage() {
-    sh 'docker build . -t artifactory.analog.com:8443/adi/see/hello-world-angular:1.0'
+    sh 'docker build . -t hello-world-angular:1.0'
     echo 'Image built successfully'
 }
 
